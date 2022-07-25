@@ -1,0 +1,51 @@
+@each $theme, $key in $themes {
+
+    .u-theme-primary--#{$theme},.u-theme-primary--#{$theme}::before,.u-theme-primary--#{$theme}::after {
+      background-color: map-deep-get($themes, #{$theme}, "primary");
+      color: map-deep-get($themes, #{$theme}, "onPrimary");
+      fill: map-deep-get($themes, #{$theme}, "onPrimary");
+    }
+
+    .u-theme-primary--#{$theme}-inverse,.u-theme-primary--#{$theme}-inverse::before,.u-theme-primary--#{$theme}-inverse::after {
+      background-color: map-deep-get($themes, #{$theme}, "onPrimary");
+      color: map-deep-get($themes, #{$theme}, "primary");
+      fill: map-deep-get($themes, #{$theme}, "primary");
+    }
+
+    .u-theme-secondary--#{$theme},.u-theme-secondary--#{$theme}::before,.u-theme-secondary--#{$theme}::after {
+      background-color: map-deep-get($themes, #{$theme}, "secondary");
+      color: map-deep-get($themes, #{$theme}, "onSecondary");
+      fill: map-deep-get($themes, #{$theme}, "onSecondary");
+    }
+
+    .u-theme-secondary--#{$theme}-inverse,.u-theme-secondary--#{$theme}-inverse::before,.u-theme-secondary--#{$theme}-inverse::after {
+      background-color: map-deep-get($themes, #{$theme}, "onSecondary");
+      color: map-deep-get($themes, #{$theme}, "secondary");
+      fill: map-deep-get($themes, #{$theme}, "secondary");
+    }
+
+    .u-theme-background--#{$theme},.u-theme-background--#{$theme}::before,.u-theme-background--#{$theme}::after {
+      background-color: map-deep-get($themes, #{$theme}, "background");
+      color: map-deep-get($themes, #{$theme}, "onBackground");
+      fill: map-deep-get($themes, #{$theme}, "onBackground");
+    }
+
+    .u-theme-background--#{$theme}-inverse,.u-theme-background--#{$theme}-inverse::before,.u-theme-background--#{$theme}-inverse::after {
+      background-color: map-deep-get($themes, #{$theme}, "onBackground");
+      color: map-deep-get($themes, #{$theme}, "background");
+      fill: map-deep-get($themes, #{$theme}, "background");
+    }
+
+    .u-theme-surface--#{$theme},.u-theme-surface--#{$theme}::before,.u-theme-surface--#{$theme}::after {
+      background-color: map-deep-get($themes, #{$theme}, "surface");
+      color: map-deep-get($themes, #{$theme}, "onSurface");
+      fill: map-deep-get($themes, #{$theme}, "onSurface");
+    }
+
+    .u-theme-surface--#{$theme}-inverse,.u-theme-surface--#{$theme}-inverse::before,.u-theme-surface--#{$theme}-inverse::after {
+      background-color: map-deep-get($themes, #{$theme}, "onSurface");
+      color: map-deep-get($themes, #{$theme}, "surface");
+      fill: map-deep-get($themes, #{$theme}, "surface");
+    }
+
+}

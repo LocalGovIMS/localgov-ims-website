@@ -1,0 +1,23 @@
+
+@each $breakpoint, $size in $breakpoints {
+
+    $prefix-bp: str-slice(#{$breakpoint}, 0, 1);
+    @if $prefix-bp == ' ' { $prefix-bp: ''; }
+    
+    @media screen and (min-width: $size) {
+    
+        $i: 0;
+        @while $i <= 100 {
+            
+            $prefix-sz: #{$i};
+            $prefix: '.' + $prefix-bp + 'fs-' + $prefix-sz;
+
+            #{$prefix} {
+                font-size: #{$i}#{'%'};
+            }
+
+            $i: $i+5;
+
+        }
+    }
+}

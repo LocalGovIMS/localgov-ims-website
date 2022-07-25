@@ -1,0 +1,9 @@
+.o-container {
+    display: block;
+    width: 100%;
+}
+
+.o-container--content {
+    margin: auto;
+    max-width: map-get($containers, "content");
+}

@@ -1,0 +1,75 @@
+@each $breakpoint, $size in $breakpoints {
+
+    $prefix-bp: str-slice(#{$breakpoint}, 0, 1);
+    @if $prefix-bp == ' ' { $prefix-bp: ''; }
+    
+    @media screen and (min-width: $size) {
+
+
+        @for $i from 0 through 6 {
+        
+            $prefix: '.' + $prefix-bp;
+            
+            #{$prefix}p-#{$i} {
+                padding: #{$i}rem;
+            }
+
+            #{$prefix}pt-#{$i} {
+                padding-top: #{$i}rem;
+            }
+
+            #{$prefix}pl-#{$i} {
+                padding-left: #{$i}rem;
+            }
+
+            #{$prefix}pr-#{$i} {
+                padding-right: #{$i}rem;
+            }
+
+            #{$prefix}pb-#{$i} {
+                padding-bottom: #{$i}rem;
+            }
+
+            #{$prefix}px-#{$i} {
+                padding-left: #{$i}rem;
+                padding-right: #{$i}rem;
+            }
+
+            #{$prefix}py-#{$i} {
+                padding-top: #{$i}rem;
+                padding-bottom: #{$i}rem;
+            }
+
+        
+            #{$prefix}m-#{$i} {
+                margin: #{$i}rem;
+            }
+
+            #{$prefix}mt-#{$i} {
+                margin-top: #{$i}rem;
+            }
+
+            #{$prefix}ml-#{$i} {
+                margin-left: #{$i}rem;
+            }
+
+            #{$prefix}mr-#{$i} {
+                margin-right: #{$i}rem;
+            }
+
+            #{$prefix}mb-#{$i} {
+                margin-bottom: #{$i}rem;
+            }
+
+            #{$prefix}mx-#{$i} {
+                margin-left: #{$i}rem;
+                margin-right: #{$i}rem;
+            }
+
+            #{$prefix}my-#{$i} {
+                margin-top: #{$i}rem;
+                margin-bottom: #{$i}rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{% assign pagesList = site.pages | where_exp: "item", "item.navEntry > 0" | sort: "navEntry" %}
+{% assign theme = include.theme | default: "default" %}
+
+<nav class="c-navbar">
+
+    <!-- Brand -->
+    <a class="c-navbar__brand u-theme-primary--{{ theme }}" href="/">LocalGov IMS</a>
+    
+    <!-- Menu toggle -->
+    <input class="c-navbar__checkbox" type="checkbox" id="navbarCheckbox">
+    <label class="c-navbar__toggle clearfix" for="navbarCheckbox">
+        <span class="c-navbar__hamburger c-navbar__hamburger-bun u-theme-primary--{{ theme }}-inverse"></span>
+        <span class="c-navbar__hamburger c-navbar__hamburger-meat u-theme-primary--{{ theme }}-inverse"></span>
+    </label>
+    
+    <!-- Menu -->
+    <div class="c-navbar__menu">
+        <ul class="c-navbar__menu-list">
+
+            {% for indexPage in pagesList %}
+                
+                <li class="c-navbar__menu-item fs-90">
+                    <a class="c-navbar__menu-link u-theme-primary--{{ theme }}" href="{{ indexPage.url }}">
+                        {{ indexPage.title }}
+                    </a>
+                </li>
+            
+            {% endfor %}
+            
+            <li class="c-navbar__menu-item c-navbar__menu-cta fs-90">
+                <a class="c-navbar__menu-button u-theme-primary--{{ theme }}-inverse" href="/demo/">Get a demo</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</nav>
+

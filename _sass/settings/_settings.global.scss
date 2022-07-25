@@ -1,0 +1,89 @@
+
+$font-family: 'Montserrat', sans-serif;
+$font-size: 1rem;
+$font-sizes: (
+    "": (
+        "p": 1rem
+    ),
+    "medium": (
+        "p": 2rem
+    ),
+    "large": (
+        "p": 3rem
+    )
+);
+
+$colors: (
+    "red": #e85a62,
+    "blue": #3259b7,
+    "orange": #eb823c,
+    "green": #428d52,
+    "pink": #b92383,
+    "black": #222,
+    "white": #fff
+);
+
+$themes: (
+    "default": (
+        primary: #e85a62,
+        onPrimary: #ffffff,
+        secondary: #333333,
+        onSecondary: #ffffff,
+        background: #ffffff,
+        onBackground: #000000,
+        surface: #000000,
+        onSurface: #ffffff
+    ),
+    "partners": (
+        primary: #3259b7,
+        onPrimary: #ffffff,
+        secondary: #333333,
+        onSecondary: #ffffff,
+        background: #ffffff,
+        onBackground: #000000,
+        surface: #000000,
+        onSurface: #ffffff
+    ),
+    "story": (
+        primary: #eb823c,
+        onPrimary: #ffffff,
+        secondary: #333333,
+        onSecondary: #ffffff,
+        background: #ffffff,
+        onBackground: #000000,
+        surface: #000000,
+        onSurface: #ffffff
+    ),
+    "team": (
+        primary: #428d52,
+        onPrimary: #ffffff,
+        secondary: #333333,
+        onSecondary: #ffffff,
+        background: #ffffff,
+        onBackground: #000000,
+        surface: #000000,
+        onSurface: #ffffff
+    ),
+    "contact": (
+        primary: #b92383,
+        onPrimary: #ffffff,
+        secondary: #333333,
+        onSecondary: #ffffff,
+        background: #ffffff,
+        onBackground: #000000,
+        surface: #000000,
+        onSurface: #ffffff
+    )
+);
+
+$breakpoints: (
+    "": 0px,
+    "medium": 641px,
+    "large": 1008px,
+    "gigantic": 1367px
+);
+
+$containers: (
+    "": calc(100vw - (100vw - 100%)),
+    "content": 1100px
+);

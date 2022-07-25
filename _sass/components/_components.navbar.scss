@@ -1,0 +1,156 @@
+.c-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.c-navbar__brand {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.c-navbar__menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+    width: 100%;
+}
+
+.c-navbar__menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.c-navbar__menu-item {
+    padding: 1rem 0;
+}
+
+.c-navbar__menu-button {
+    display: inline-block;
+    padding: 0.6rem;
+    text-decoration: none;
+}
+
+.c-navbar__checkbox, .c-navbar__toggle {
+    display: none;
+}
+
+.c-navbar__toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    top: -1px;
+    cursor: pointer;
+}
+
+.c-navbar__hamburger {
+    position: absolute;
+    width: 20px;
+}
+
+.c-navbar__hamburger-bun::before, .c-navbar__hamburger-bun::after, .c-navbar__hamburger-meat::before, .c-navbar__hamburger-meat::after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: 2px;
+    transition: transform .5s;
+}
+
+.c-navbar__hamburger-bun::before {
+    transform: translateY(-7px);
+}
+
+.c-navbar__hamburger-bun::after {
+    transform: translateY(7px);
+}
+
+.c-navbar__hamburger-meat::before, .c-navbar__hamburger-meat::after {
+    width: 10px;
+    transition: transform .5s, opacity .5s;
+} 
+
+.c-navbar__hamburger-meat::after {
+    transform: translateX(10px);
+}
+
+.c-navbar__checkbox:checked ~ .c-navbar__menu {
+    max-height: 100vh;
+    transition: max-height .5s ease-in-out;
+}
+
+.c-navbar__checkbox:checked ~ .c-navbar__toggle>.c-navbar__hamburger-bun::before {
+    transform: rotate(45deg);
+}
+
+.c-navbar__checkbox:checked ~ .c-navbar__toggle>.c-navbar__hamburger-bun::after {
+    transform: rotate(-45deg);
+}
+
+.c-navbar__checkbox:checked ~ .c-navbar__toggle>.c-navbar__hamburger-meat::before {
+    transform: translateX(-10px);
+    opacity: 0;
+}
+
+.c-navbar__checkbox:checked ~ .c-navbar__toggle>.c-navbar__hamburger-meat::after {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+@each $theme, $key in $themes {
+
+    .c-navbar__menu-link--#{$theme} {
+        background-color: map-deep-get($themes, #{$theme}, "primary");
+        color: map-deep-get($themes, #{$theme}, "onPrimary");
+    }
+
+    .c-navbar__menu-button--#{$theme} {
+        background-color: map-deep-get($themes, #{$theme}, "onPrimary");
+        color: map-deep-get($themes, #{$theme}, "primary");
+    }
+
+    .c-navbar__hamburger-bun--#{$theme}::before, 
+    .c-navbar__hamburger-bun--#{$theme}::after, 
+    .c-navbar__hamburger-meat--#{$theme}::before, 
+    .c-navbar__hamburger-meat--#{$theme}::after {
+        background-color: map-deep-get($themes, #{$theme}, "onPrimary");
+    }
+
+}
+
+@media screen and (min-width: map-get($breakpoints, "large")) {
+    
+    .c-navbar__brand {
+        display: none;
+    }
+
+    .c-navbar__menu {
+        max-height: 100%;
+    }
+    
+    .c-navbar__menu-list {
+        flex-direction: row;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .c-navbar__menu-item {
+        padding: 0;
+    }
+
+    .c-navbar__toggle {
+        display: none;
+    }
+
+    .c-navbar__menu-cta {
+        flex:auto;
+        text-align: right;
+    }
+
+}

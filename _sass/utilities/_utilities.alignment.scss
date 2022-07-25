@@ -1,0 +1,25 @@
+
+
+@each $breakpoint, $size in $breakpoints {
+
+    $prefix-bp: str-slice(#{$breakpoint}, 0, 1);
+    @if $prefix-bp == ' ' { $prefix-bp: ''; }
+    
+    @media screen and (min-width: $size) {
+    
+        $prefix: '.' + $prefix-bp;
+
+        #{$prefix}center {
+            text-align: center;
+        }
+
+        #{$prefix}left {
+            text-align: left;
+        }
+
+        #{$prefix}right {
+            text-align: right;
+        }        
+
+    }
+}

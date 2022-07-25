@@ -1,0 +1,7 @@
+{% assign src = include.src | default: "assets/images/logo.jpg" %}
+{% assign alt = include.alt | default: "This image is missing an alt tag. Please report this to us at {{ site.email }}" %}
+{% assign height = include.height | default: "100%" %}
+{% assign width = include.width | default: "100%" %}
+{% assign theme = include.theme | default: "default" %}
+
+<div class="c-image" style="background-image: url('{{ src | relative_url }}'); height: max({{ height }}, 200px); width:{{ width }};" title="{{ alt }}"></div>
