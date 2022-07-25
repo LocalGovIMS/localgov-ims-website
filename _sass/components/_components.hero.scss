@@ -25,7 +25,7 @@
 @media screen and (min-width: map-get($breakpoints, "large")) {
     
     .c-hero__title--min {
-        font-size: 4vw;
+        font-size: 4rem;
         line-height: calc(max(15vh, 4rem));
     }
     
