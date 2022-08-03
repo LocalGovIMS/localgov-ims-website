@@ -1,6 +1,6 @@
 ---
 layout: section    # See _layouts/section.html
-title: Get a demo
+title: Demo site
 theme: default
 ---
 
