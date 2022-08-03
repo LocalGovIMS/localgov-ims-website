@@ -34,7 +34,7 @@ $themes: (
         surface: #000000,
         onSurface: #ffffff
     ),
-    "story": (
+    "features": (
         primary: #eb823c,
         onPrimary: #ffffff,
         secondary: #333333,
@@ -44,7 +44,17 @@ $themes: (
         surface: #000000,
         onSurface: #ffffff
     ),
-    "using": (
+    "roadmap": (
+        primary: #FFCC00,
+        onPrimary: #ffffff,
+        secondary: #333333,
+        onSecondary: #ffffff,
+        background: #ffffff,
+        onBackground: #000000,
+        surface: #000000,
+        onSurface: #ffffff
+    ),
+    "documentation": (
         primary: #3259b7,
         onPrimary: #ffffff,
         secondary: #333333,
@@ -54,18 +64,8 @@ $themes: (
         surface: #000000,
         onSurface: #ffffff
     ),
-    "works": (
+    "history": (
         primary: #428d52,
-        onPrimary: #ffffff,
-        secondary: #333333,
-        onSecondary: #ffffff,
-        background: #ffffff,
-        onBackground: #000000,
-        surface: #000000,
-        onSurface: #ffffff
-    ),
-    "mou": (
-        primary: #f5d205,
         onPrimary: #ffffff,
         secondary: #333333,
         onSecondary: #ffffff,

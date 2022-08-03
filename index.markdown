@@ -3,6 +3,7 @@ layout: home   # See _layouts/home.html
 title: Home
 subtitle: A service built by local authorities for local authorities
 navEntry: 1
+navTitle: Home
 theme: default
 ---
 

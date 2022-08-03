@@ -1,8 +1,8 @@
 ---
 layout: section    # See _layouts/section.html
-title: Our story
-theme: story
-navEntry: 2
+title: Documentation
+theme: documentation
+navEntry: 4
 ---
 
 # Lorem ipsum dolor sit amet

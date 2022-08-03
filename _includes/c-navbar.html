@@ -21,14 +21,14 @@
                 
                 <li class="c-navbar__menu-item fs-90">
                     <a class="c-navbar__menu-link u-theme-primary--{{ theme }}" href="{{ indexPage.url | relative_url }}">
-                        {{ indexPage.title }}
+                        {{ indexPage.navTitle | default: indexPage.title }}
                     </a>
                 </li>
             
             {% endfor %}
             
             <li class="c-navbar__menu-item c-navbar__menu-cta fs-90">
-                <a class="c-navbar__menu-button u-theme-primary--{{ theme }}-inverse" href="{{ '/demo' | relative_url }}">Get a demo</a>
+                <a class="c-navbar__menu-button u-theme-primary--{{ theme }}-inverse" href="{{ '/demo' | relative_url }}">Demo site</a>
             </li>
             
         </ul>

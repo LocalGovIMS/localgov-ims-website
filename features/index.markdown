@@ -1,8 +1,8 @@
 ---
 layout: section    # See _layouts/section.html
-title: MoU
-theme: mou
-navEntry: 5
+title: Features
+theme: features
+navEntry: 2
 ---
 
 # Lorem ipsum dolor sit amet

@@ -2,7 +2,7 @@
 layout: section    # See _layouts/section.html
 title: Contact us
 theme: contact
-navEntry: 6
+navEntry: 5
 ---
 
 # Lorem ipsum dolor sit amet

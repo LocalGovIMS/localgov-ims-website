@@ -1,8 +1,8 @@
 ---
 layout: section    # See _layouts/section.html
-title: How it works
-theme: works
-navEntry: 4
+title: History
+theme: history
+navEntry: 5
 ---
 
 # Lorem ipsum dolor sit amet
