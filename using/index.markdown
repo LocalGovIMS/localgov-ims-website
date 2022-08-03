@@ -1,8 +1,8 @@
 ---
 layout: section    # See _layouts/section.html
-title: Our team
-theme: team
-navEntry: 4
+title: Using the IMS
+theme: using
+navEntry: 3
 ---
 
 # Lorem ipsum dolor sit amet

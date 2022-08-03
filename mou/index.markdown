@@ -1,8 +1,8 @@
 ---
 layout: section    # See _layouts/section.html
-title: Our partners
-theme: partners
-navEntry: 2
+title: MoU
+theme: mou
+navEntry: 5
 ---
 
 # Lorem ipsum dolor sit amet
