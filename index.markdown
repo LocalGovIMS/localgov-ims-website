@@ -1,7 +1,7 @@
 ---
 layout: home   # See _layouts/home.html
 title: Home
-subtitle: A service built by local authorities for local authorities
+subtitle: A service built by councils for councils
 navEntry: 1
 navTitle: Home
 theme: default
