@@ -6,7 +6,7 @@ navEntry: 2
 navTitle: Features
 ---
 
-> The open source IMS has been designed and built as a minimum viable system, meeting the common and priority needs of councils. Here we example some of the current features of the system.
+> The open-source IMS has been designed and built as a minimum viable system, meeting the common and priority needs of councils. Here we example some of the current features of the system.
 
 ## Dashboard
 
