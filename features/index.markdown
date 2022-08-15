@@ -1,14 +1,52 @@
 ---
 layout: section    # See _layouts/section.html
-title: Features
+title: Features of the IMS
 theme: features
 navEntry: 2
+navTitle: Features
 ---
 
-# Lorem ipsum dolor sit amet
+> The open source IMS has been designed and built as a minimum viable system, meeting the common and priority needs of councils. Here we example some of the current features of the system.
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra blandit est ut sollicitudin. Nullam gravida urna ac diam malesuada auctor. Aenean feugiat magna eget convallis congue. Ut consequat sem orci, bibendum luctus diam consequat vel. Etiam sodales felis non arcu dictum tristique eu vel mi. Cras quis finibus sapien. Suspendisse est diam, dapibus quis nisl ut, tempus aliquet velit.
+## Dashboard
 
-Proin vestibulum enim risus, eget sollicitudin arcu sodales in. Vivamus pretium eros auctor nisi scelerisque, dapibus sollicitudin felis mollis. Pellentesque sed enim ac augue facilisis tristique in nec nulla. Maecenas vulputate suscipit turpis et tempus. Proin vulputate ullamcorper tincidunt. Donec iaculis pharetra urna maximus ultricies. Etiam posuere sodales nisi, vitae suscipit purus iaculis vitae. Sed ultricies, augue vitae ullamcorper viverra, mauris purus vehicula diam, eu ultrices mauris ante commodo nisl. Maecenas id purus felis. Morbi nisl libero, finibus nec fringilla varius, fringilla volutpat tortor. Ut at mauris in sem egestas tempor.
+This is the landing page once logged in. The dashboard shows widgets which provide a summary of what’s happening in the system. Currently there are widgets for import processing.  
+ 
+## Transaction list - search page 
 
-Nullam a vestibulum erat. Donec semper erat eu quam sagittis, vitae viverra lorem rhoncus. Suspendisse interdum blandit arcu in blandit. Ut mollis dictum suscipit. Sed tincidunt laoreet turpis, sit amet molestie nisi hendrerit sit amet. Nunc porttitor ligula non placerat tempor. Suspendisse potenti. Curabitur rhoncus odio quis dolor dictum rhoncus. Vestibulum tempus imperdiet purus quis aliquet.
+All payments are shown in real-time, as soon as they have been received. Payments can be searched for, when dealing with a query from a customer, and there are multiple filtering options. The narrative search option, which may contain information such as a payee sort code or account number, has proved particularly useful to IMS users at Barnsley.  
+ 
+## Transaction details 
+Payment information is provided, and with a full audit trail. There is functionality to email and print receipts. Payments can be refunded and journalled. Where needed payments can be reallocated, to a correct fund and reference. 
+ 
+## Transfers
+
+Transfers permit money to be moved, when it isn’t linked to a payment coming into the system. For example, a customer's council tax account might be in credit after an award of council tax support. 
+ 
+## Payments 
+
+A call centre or post room can take card payments and record cheques that have been received. When clicking ‘pay’ a member of staff is guided through the payment process. This can be used for return direct debits, direct debit indemnity claims and returned cheques. Multiple items can be processed. The feature integrates with call management software.
+    
+## eReturns
+
+eReturns are configured using templates and used to record cashing up with cash and cheque. 
+      
+## Accounts
+
+Are primarily used to validate account references.
+      
+## Suspense
+
+When a bank file is imported most entries will be allocated automatically, any item not allocated falls into suspense. You can add notes to show any progress that's been made whilst working on a suspense item. 
+ 
+## Imports
+
+Breakdown of all file imports into the IMS are shown. Transactions created can be viewed. Import reversals are on the IMS product backlog. 
+ 
+## Import processing rules
+
+Allow a user to define rules and actions to perform on imported transactions, which reduces the amount of items going into suspense.
+      
+## Configurable settings
+
+It’s possible to set-up configurable data within the system, such as fund codes, VAT codes and methods of payments.

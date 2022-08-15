@@ -1,3 +1,9 @@
+.c-hero {
+    background-image: url('/assets/images/hero-bg.jpg');
+    background-position: top left;
+    background-repeat: repeat;
+}
+
 .c-hero__title--min {
     font-size: 10vw;
     line-height: calc(max(16vw, 4rem));

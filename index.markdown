@@ -7,24 +7,34 @@ navTitle: Home
 theme: default
 ---
 
-We have created a free, reusable and open source income management system that’s easy to use, maintain and enhance. It provides a comprehensive way to manage payments and accounting across all your departments.
+The LocalGov IMS is an open source income management system built by local government for local government.
 
-# Why should you switch?
+LocalGov IMS is intuitive, easy to maintain, enhance, and free to use. It provides a comprehensive way to manage payments and accounting across council departments.
 
-Our system was built by a local authority who knows how it needs to be used and what challenges it could face. 
+The system was built by local government teams who know about the needs, expectations, and challenges faced by other similar organisations.
 
-As more local authorities have started to use it, we have been able to fine tune the system to make it more robust and perform the tasks needed by all the service users in the organisation. 
+By engaging with other councils throughout the delivery of the IMS, the system has been designed to reflect the needs of the teams who will use it. 
 
-We believe in sharing knowledge and so our system is available free of charge if you have internal capability or if you need support hosting or implementing, the cost will still be significantly less than your existing contract. In the current financial climate we all understand the importance of making budgets stretch further and empowering internal teams. 
+# Getting involved and using the IMS 
 
-Come and join a network of like minded people who all see the value of sharing knowledge and saving money. 
+If you’re a council you can begin using the IMS and join the IMS community. The IMS community understands the value of sharing technology and knowledge, working together, and in the open. Join the IMS community on Slack.
 
-# Meet the team
+## Accessing the demo site
 
-This is an open, collaborative local authority project funded by the Ministry of Housing, Communities and Local Government (MCHLG) Local Digital Fund, and led collaboratively by partners. 
+If you’d like to access the IMS demo site we ask that you identify a lead user from your council. The lead user can visit the demo log-in screen, and register for access with their council email address. The IMS team will then set-up the lead user and provide access. 
 
-The current partners on the project are Dorset Council, Barnsley Metropolitan and Borough Council and Lewisham Council. The team is supported by a delivery partner, dxw and a DLUHC engagement manager. 
+If you’d like to set up additional users in bulk, the IMS team can do this for you, please contact the team to arrange this. 
 
-Richard Kingston, digital programme manager at Barnsley Council comments, “ We initially created the system for our use at Barnsley, but to make this IMS something that other councils can use, we decided to build in other functionality too with the goal of making it open source. That way, we have an IMS that has been created by local government, for local government. We hope this is an approach that others can follow with different services.”
+The IMS team is also happy to introduce you to the system, please contact the team if you’d like an introduction to the IMS. 
 
-Glen Conroy, ICT operations manager at Dorset Council adds, “People only notice an IMS when it’s not working. Either payments get taken, or they don’t.  Having this in place will make a huge difference to the smooth running of the system in any council, ensuring the flow of payments from citizens and around the council is seamless and efficient.”
+## Downloading the source code
+
+If you’d like to start using the IMS codebase you can download the source code here. Read the IMS Memorandum of Understanding for more information about using the IMS.
+
+## First time use for Finance teams
+
+If you’re part of a finance team and would like a guided introduction to using the IMS, the IMS project team can run a dedicated session for your council. Please contact the team to arrange this.  
+
+## Help and queries
+
+The IMS project team doesn't provide technical support for the open source version of the IMS, but the team is happy to answer any queries you have and help point you in the right direction. Please contact the team for further help.
