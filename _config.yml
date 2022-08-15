@@ -23,7 +23,7 @@ organisation: LocalGov IMS
 email: hello@localgovims.digital
 description: >- # this means to ignore newlines until "baseurl:"
   Looking to offer a viable and sustainable alternative to the current market
-  offerings for income management systems, for local authorities and public 
+  offerings for income management systems, for councils and public 
   sector bodies.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://localgovims.github.io" # the base hostname & protocol for your site, e.g. http://example.com

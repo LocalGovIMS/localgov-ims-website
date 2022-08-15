@@ -9,7 +9,7 @@ navEntry: 4
 
 ## IMS Memorandum of Understanding
 
-The purpose of the Memorandum of Understanding (MoU) is to guide and support councils that co-develop, share, and maintain the open-source codebase for the LocalGov Income Management System (IMS).
+The purpose of the Memorandum of Understanding (MoU) is to guide and support councils that co-develop, share, and maintain the open source codebase for the LocalGov Income Management System (IMS).
 
 Wherever possible we will re-use existing knowledge and solutions.This means:
 
@@ -26,26 +26,26 @@ We believe in and are committed to the principles of the Local Digital Declarati
 * Sharing our plans and experience
 * Working collaboratively with other councils
 * Developing and reusing good practice
-* Publishing our work under open-source licences
+* Publishing our work under open source licences
 
 We agree to maintain a common codebase which means all improvements will be available to all councils.
 
 We aim to create a diverse community and will value everyone’s voices.
 
-We want as many councils as possible to benefit from this project. We welcome contributions from anyone interested in our work which helps to, build on the strength of open-source communities both in the UK and beyond.
+We want as many councils as possible to benefit from this project. We welcome contributions from anyone interested in our work which helps to, build on the strength of open source communities both in the UK and beyond.
 
 We take our inspiration from other code sharing organisations and initiatives and recognise we are part of a wider international movement and community.
  
 
 ### Intellectual property and licensing
 
-Code and other materials will be automatically licensed to participants on an agreed open-source licence (see “Code Licences” below). ontributors will retain ownership of their copyright and other intellectual property, subject to that licence.
+Code and other materials will be automatically licensed to participants on an agreed open source licence (see “Code Licences” below). ontributors will retain ownership of their copyright and other intellectual property, subject to that licence.
 
 As an example: A developer in a council develops some code. That council retains the intellectual property of the code. At the point of publishing the code, it is licensed under the appropriate licence for others to use.
 
 ### Code licences
 
-LocalGov IMS is released under the GPLv2 (or later version). See our licensing decision note for further information. Code repositories and testing infrastructure will be hosted on platforms that support open-source projects for free (like Gitlab and Github).
+LocalGov IMS is released under the GPLv2 (or later version). See our licensing decision note for further information. Code repositories and testing infrastructure will be hosted on platforms that support open source projects for free (like Gitlab and Github).
 
 ### Documentation licences
 
@@ -90,11 +90,11 @@ Councils using the IMS. We expect IMS users are also part of the community.
 
 ### Joining and leaving
 
-Councils can leave at any time without notice, but all parties may have access to the common codebase in the repository on the basis of the open-source licence.
+Councils can leave at any time without notice, but all parties may have access to the common codebase in the repository on the basis of the open source licence.
 
 ### Finance
 
-The LocalGov IMS is solely funded by the Local Digital Fund kindly provided by DLUHC. The codebase will always remain open-source, and free for anyone to download and use.
+The LocalGov IMS is solely funded by the Local Digital Fund kindly provided by DLUHC. The codebase will always remain open source, and free for anyone to download and use.
 
 ### Compliance
 
