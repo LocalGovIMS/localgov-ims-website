@@ -9,7 +9,7 @@ navEntry: 4
 
 ## IMS Memorandum of Understanding
 
-The purpose of the Memorandum of Understanding (MoU) is to guide and support councils that co-develop, share, and maintain the open source codebase for the LocalGov Income Management System (IMS).
+The purpose of the Memorandum of Understanding (MoU) is to guide and support councils that co-develop, share, and maintain the open source codebase for the Local Gov Income Management System (IMS).
 
 Wherever possible we will re-use existing knowledge and solutions.This means:
 
@@ -45,7 +45,7 @@ As an example: A developer in a council develops some code. That council retains
 
 ### Code licences
 
-LocalGov IMS is released under the GPLv2 (or later version). See our licensing decision note for further information. Code repositories and testing infrastructure will be hosted on platforms that support open source projects for free (like Gitlab and Github).
+Local Gov IMS is released under the GPLv2 (or later version). See our licensing decision note for further information. Code repositories and testing infrastructure will be hosted on platforms that support open source projects for free (like Gitlab and Github).
 
 ### Documentation licences
 
@@ -67,7 +67,7 @@ The structure will evolve as the project grows.
 
 ### Project team
 
-The project team is made up of partner councils, the Department for Levelling Up, Housing, and Communities (DLUHC) and dxw. The team represents LocalGov IMS as a collective and guides the direction of the IMS.
+The project team is made up of partner councils, the Department for Levelling Up, Housing, and Communities (DLUHC) and dxw. The team represents Local Gov IMS as a collective and guides the direction of the IMS.
 
 The project team is responsible for:
 
@@ -94,7 +94,7 @@ Councils can leave at any time without notice, but all parties may have access t
 
 ### Finance
 
-The LocalGov IMS is solely funded by the Local Digital Fund kindly provided by DLUHC. The codebase will always remain open source, and free for anyone to download and use.
+The Local Gov IMS is solely funded by the Local Digital Fund kindly provided by DLUHC. The codebase will always remain open source, and free for anyone to download and use.
 
 ### Compliance
 

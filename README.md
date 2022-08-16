@@ -1,4 +1,4 @@
-# LocalGov IMS Website
+# Local Gov IMS Website
 
 This is the repository for the website that lives at https://www.localgovims.digital.
 

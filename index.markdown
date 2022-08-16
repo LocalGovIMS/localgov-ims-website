@@ -7,9 +7,9 @@ navTitle: Home
 theme: default
 ---
 
-The LocalGov IMS is an open source income management system built by local government for local government.
+The Local Gov IMS is an open source income management system built by local government for local government.
 
-LocalGov IMS is intuitive, easy to maintain, enhance, and free to use. It provides a comprehensive way to manage payments and accounting across council departments.
+Local Gov IMS is intuitive, easy to maintain, enhance, and free to use. It provides a comprehensive way to manage payments and accounting across council departments.
 
 The system was built by local government teams who know about the needs, expectations, and challenges faced by other similar organisations.
 
