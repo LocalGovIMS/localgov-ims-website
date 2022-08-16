@@ -1,16 +1,18 @@
 ---
 layout: section    # See _layouts/section.html
-title: Our story
-theme: story
+title: Our story and community
+theme: community
 navEntry: 5
-navTitle: Story
+navTitle: Community
 ---
+
+## Our story
 
 In 2017 Barnsley Metropolitan Borough Council decided to build their own in-house Income Management System. Barnsley had identified an opportunity to build this system, meeting the needs of people who use the system, and of the council. By building the IMS themselves Barnsely gained greater control over the system, improved experiences for users and lowered running costs. Barnsley have been using their IMS since building it. 
 
 Barnsley recognised that the IMS they’d built could be valuable to other councils, which led to the council’s work becoming a DLUHC funded project, and a collaborative effort with other councils. A shared vision was identified - for local government teams to build their own IMS in collaboration.
 
-The IMS project team follows agile delivery methods, and started a discovery phase in 2019. Discovery explored the appetite amongst councils for a shared IMS for local government. Engaging other council’s in the discovery showed there was appetite, but also that moving IMS can be complicated and not all councils have the in-house technical capability that's needed. Discovery findings shaped the IMS as the project progressed. 
+The IMS project team follows [agile delivery methods](https://www.gov.uk/service-manual/agile-delivery), and started a discovery phase in 2019. Discovery explored the appetite amongst councils for a shared IMS for local government. Engaging other council’s in the discovery showed there was appetite, but also that moving IMS can be complicated and not all councils have the in-house technical capability that's needed. Discovery findings shaped the IMS as the project progressed. 
 
 Dorset and Huntingdonshire councils joined the project from the alpha phase. Since starting the alpha phase together the partner councils have re-designed and re-built Barnsley’s original IMS, creating a new version of the IMS that will work well for other councils. Alpha proved the viability of the IMS, and the team continued on to beta in summer 2021. 
 
@@ -20,7 +22,7 @@ Lewisham joined the team recently, and due to staff changes Huntingdonshire left
 
 ## The IMS Community
 
-> This is an open, collaborative, local government project. It’s been funded by the Department for Levelling Up, Housing, and Communities’ (DLUHC) Local Digital Fund, and led collaboratively by partners.
+This is an open, collaborative, local government project. It’s been funded by the Department for Levelling Up, Housing, and Communities’ (DLUHC) Local Digital Fund, and led collaboratively by partners.
 
 The current partners on the project are Dorset Council, Barnsley Council and Lewisham Council. 
 

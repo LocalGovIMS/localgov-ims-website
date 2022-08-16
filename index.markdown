@@ -29,7 +29,7 @@ The IMS team is also happy to introduce you to the system, please contact the te
 
 ### Downloading the source code
 
-If you’d like to start using the IMS codebase you can [download the source code here](https://github.com/localgovims). Read the [IMS Memorandum of Understanding](/documentation) for more information about using the IMS.
+If you’d like to start using the IMS codebase you can [download the source code here](https://github.com/localgovims). Read the [IMS Memorandum of Understanding](/documentation/#ims-memorandum-of-understanding) for more information about using the IMS.
 
 ### First time use for Finance teams
 

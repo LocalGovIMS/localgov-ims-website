@@ -1,6 +1,6 @@
 ---
 layout: section    # See _layouts/section.html
-title: Contact us
+title: Contact the team
 theme: contacts
 navEntry: 6
 navTitle: Contacts
