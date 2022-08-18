@@ -6,7 +6,7 @@ navEntry: 2
 navTitle: Features
 ---
 
-> The open source IMS has been designed and built as a minimum viable system, meeting the common and priority needs of councils. Here we example some of the current features of the system.
+> The open source IMS has been designed and built as a minimum viable system, meeting priority needs of councils. Here we explain some of the current features of the system.
 
 ## Dashboard
 
@@ -33,7 +33,7 @@ eReturns are configured using templates and used to record cashing up with cash 
       
 ## Accounts
 
-Are primarily used to validate account references.
+Primarily used to validate account references.
       
 ## Suspense
 
@@ -41,11 +41,11 @@ When a bank file is imported most entries will be allocated automatically, any i
  
 ## Imports
 
-Breakdown of all file imports into the IMS are shown. Transactions created can be viewed. Import reversals are on the IMS product backlog. 
+A breakdown of all file imports into the IMS are shown. Transactions created can be viewed. Import reversals are on the IMS product backlog. 
  
 ## Import processing rules
 
-Allow a user to define rules and actions to perform on imported transactions, which reduces the amount of items going into suspense.
+Allows a user to define rules and actions to perform on imported transactions, which reduces the amount of items going into suspense.
       
 ## Configurable settings
 

@@ -5,21 +5,17 @@ theme: documentation
 navEntry: 4
 ---
 
-> Here we share additional documentation. If you’d like the team to add something to this section [please get in touch](/contact).
+> Here we share additional documentation. If you’d like the team to add something to this section [please get in touch](/contacts).
 
 ## IMS Memorandum of Understanding
 
 The purpose of the Memorandum of Understanding (MoU) is to guide and support councils that co-develop, share, and maintain the open source codebase for the Local Gov Income Management System (IMS).
 
-Wherever possible we will re-use existing knowledge and solutions.This means:
-
-* Making it as easy as possible for all councils to download, set up, use and receive enhancements.
-* Sharing information between councils about usability and user feedback for future enhancements.
-* Showing how collaboration between councils can work.
+Wherever possible we will re-use existing knowledge and solutions.
 
 ### Values
 
-We believe in and are committed to the principles of the Local Digital Declaration:
+The project team are committed to the principles of the Local Digital Declaration including:
 
 * An open culture that values, encourages and expects digital ways of working from contributors
 * Working in the open
@@ -32,28 +28,28 @@ We agree to maintain a common codebase which means all improvements will be avai
 
 We aim to create a diverse community and will value everyone’s voices.
 
-We want as many councils as possible to benefit from this project. We welcome contributions from anyone interested in our work which helps to, build on the strength of open source communities both in the UK and beyond.
+We want as many councils as possible to benefit from this project. We welcome contributions from anyone interested in our work which helps to build on the strength of open source communities both in the UK and beyond.
 
 We take our inspiration from other code sharing organisations and initiatives and recognise we are part of a wider international movement and community.
  
 
 ### Intellectual property and licensing
 
-Code and other materials will be automatically licensed to participants on an agreed open source licence (see “Code Licences” below). ontributors will retain ownership of their copyright and other intellectual property, subject to that licence.
+Code and other materials will be automatically licensed to participants on an agreed open source licence (see “Code Licences” below).
 
-As an example: A developer in a council develops some code. That council retains the intellectual property of the code. At the point of publishing the code, it is licensed under the appropriate licence for others to use.
+As an example: a developer in a council develops some code. That council retains the intellectual property of the code. At the point of publishing the code, it is licensed under the appropriate licence for others to use.
 
 ### Code licences
 
-Local Gov IMS is released under the GPLv2 (or later version). See our licensing decision note for further information. Code repositories and testing infrastructure will be hosted on platforms that support open source projects for free (like Gitlab and Github).
+Local Gov IMS is released under the GNU AGPLv3 (or later version). Code repositories and testing infrastructure will be hosted on platforms that support open source projects for free (like Gitlab and Github).
 
 ### Documentation licences
 
-Documentation and other materials will be shared publicly and published under Creative Commons (Creative Commons Attribution 4.0 CC-BY) or GPLv2 (or later version).
+Documentation and other materials will be shared publicly and published under Creative Commons (Creative Commons Attribution 4.0 CC-BY) or GNU AGPLv3 (or later version).
 
 ### Liability
 
-All code and other materials are provided to the project “as is”. No party has liability for any contribution. Code and other materials are provided without any warranty or support or other liabilities. Other collaborators must be told about bugs and security issues in a private and secure manner and according to good practice.
+No party has liability for any contribution. Code and other materials are provided without any warranty or support or other liabilities. Other collaborators must be told about bugs and security issues in a private and secure manner and according to good practice.
 
 ### Parties involved in the IMS project
 
@@ -71,7 +67,7 @@ The project team is made up of partner councils, the Department for Levelling Up
 
 The project team is responsible for:
 
-* Governance and process
+* Governance
 * Beta development of the IMS
 * Technical direction and architecture
 * Development processes and coding standards
@@ -100,9 +96,13 @@ The Local Gov IMS is solely funded by the Local Digital Fund kindly provided by 
 
 All functionality should adhere to WCAG 2.1 AA at a minimum.
 
-All councils mustacknowledge that administering, contributing, and becoming involved in the project will involve the processing of personal data. You must agree to comply with all relevant legislation and to establish appropriate practices and procedures.
+All councils must acknowledge that administering, contributing, and becoming involved in the project will involve the processing of personal data. You must agree to comply with all relevant legislation and to establish appropriate practices and procedures.
 
 Any code that is developed as part of this project will follow the principles of data protection by design and default.
+
+### Governance
+
+The project team is responsible for governance processes, whilst the IMS is in beta. As the project develops, governance structures will evolve. We’ll update the community and users when there are changes to governance.
 
 ### Communication
 
