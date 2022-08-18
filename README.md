@@ -8,9 +8,6 @@ This is the repository for the website that lives at https://www.localgovims.dig
 * Requirements
 * Installation
 * Configuration
-* Troubleshooting
-* FAQ
-* Maintainers
 
 ## Introduction
 
@@ -22,11 +19,13 @@ When you're happy with your changes, you can commit them and push them back into
 
 ## Requirements
 
-Jekyll must be installed on your machine to compile and view the website generated locally.
+Jekyll must be installed on your machine to compile and view the website generated locally. For instructions on how to do this, please see [https://jekyllrb.com/](https://jekyllrb.com/).
+
+You'll also need an IDE to run and edit the code. Visual Studio Code is a great option that can be downloaded from [https://code.visualstudio.com/](https://code.visualstudio.com/).
 
 ## Installation
 
-See https://jekyllrb.com/docs/installation/ for OS specific installation guides for Jekyll.
+TBC
 
 ## Configuration
 
@@ -35,18 +34,8 @@ Use the file _config.yml to change the way Jekyll compiles the code in this repo
 Beyond that, webpages and directories are setup as markdown files in a typical folder/file structure, e.g. index.md, about/us.md. Each markdown file has a yaml section at the top that contains key/value pairs. The are page level variables. You can add your own and reference them in webpages using {{ page.key }} but to begin with we have:
 
 * layout: The parent page into which its content should be injected. Layout files can be found in the _layouts folder and can parent each other.
-* title: The title of the page to show in the browser tab
+* title: The title of the page to show in the visible page when rendered
+* navTitle: The title of the page as it appears in the navigation menu and browser title
 * description: The content to put in the meta description tag. Defaults to {{ page.excerpt }} (a reserved variable) if not provided.
 * keywords: The content to put in the meta keywords tag. Defaults to {{ site.keywords }} if not provided.
 * author: The content to put in the meta author tag. Defaults to {{ site.organisation }} if not provided.
-
-## Troubleshooting
-
-## FAQ
-
-
-
-## Maintainers
-
-* Richard Kingston - https://github.com/kingstonrichard
-* Glen Conroy - https://github.com/glenconroy
