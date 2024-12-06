@@ -15,7 +15,7 @@ The system was built by local government teams who know about the needs, expecta
 
 By engaging with other councils throughout its development, the system has been designed to reflect the needs of those who will use it. 
 
-## Getting involved and using the IMS 
+## Getting involved and start using the IMS 
 
 If you’re a council you can download and begin using the IMS today. You can also [join the IMS community](https://localgovims.slack.com). The IMS community understands the value of sharing technology and knowledge, working together, and working in the open.
 
