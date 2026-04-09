@@ -4,9 +4,8 @@ layout: main
 
 <header>
     {% include c-navbar.html theme=page.theme %}
-</header>
 
-{% include c-hero.html
+    {% include c-hero.html
         theme=page.theme
         title="Income management, built by councils for councils."
         subtitle=page.subtitle
@@ -17,20 +16,21 @@ layout: main
         btn_secondary_label="Tailwind Digital managed service ↗"
         btn_secondary_url="https://tailwinddigital.io"
     %}
+</header>
 
 <!-- Partner banner -->
 <div class="c-partner-banner">
     <span class="c-partner-banner__label">Partners</span>
     <div class="c-partner-banner__logos">
-        <img src="/assets/images/Dorset-council-logo-COLOUR-PNG.png" alt="Dorset Council" class="c-partner-banner__logo">
-        <img src="/assets/images/Barnsley_Metropolitan_Borough_Council_logo.svg.png" alt="Barnsley MBC" class="c-partner-banner__logo">
-        <img src="/assets/images/Burnley.webp" alt="Burnley Council" class="c-partner-banner__logo">
-        <img src="/assets/images/Gravesham-Council.png" alt="Gravesham Borough Council" class="c-partner-banner__logo">
-        <img src="/assets/images/MHCLG-logo.png" alt="MHCLG Logo" class="c-partner-banner__logo">
+        <span class="c-partner-banner__pill">Dorset Council</span>
+        <span class="c-partner-banner__pill">Barnsley MBC</span>
+        <span class="c-partner-banner__pill">Lewisham Council</span>
         <div class="c-partner-banner__separator"></div>
-        <a href="https://tailwinddigital.io" target="_blank" rel="noopener">
-    <img src="/assets/images/Tailwind-Digital-Full-Colour.png" alt="Tailwind Digital" class="c-partner-banner__logo c-partner-banner__logo--tailwind">
-</a>
+        <span class="c-partner-banner__pill c-partner-banner__pill--provider">Tailwind Digital — Managed Service Provider</span>
+    </div>
+    <div class="c-partner-banner__funded">
+        <span>Funded by</span>
+        <span class="c-partner-banner__dluhc">DLUHC Local Digital Fund</span>
     </div>
 </div>
 
@@ -43,16 +43,16 @@ layout: main
             <div class="c-page__section">
                 <div class="c-eyebrow">About the IMS</div>
                 <h2>A shared system, built in the open.</h2>
-                <p class="c-section-intro">The Local Gov IMS gives councils a flexible, modern way to recieve payments and manage income across departments, without the cost and complexity of proprietary systems.</p>
+                <p class="c-section-intro">The Local Gov IMS gives councils a flexible, modern way to manage income — payments, reconciliation, and accounting across departments — without the cost and complexity of proprietary systems.</p>
 
                 <div class="c-two-col">
                     <div class="c-card">
                         <div class="c-card__label">What it does</div>
                         <ul>
                             <li>Manages payments across all council departments</li>
-                            <li>Handles back office income management functions with ease </li>
-                            <li>Supports card, cheque, telephone, and online payments</li>
-                            <li>Full audit trail and flexible reporting dashboard</li>
+                            <li>Handles bank reconciliation and suspense automatically</li>
+                            <li>Supports card, cheque, and online payment channels</li>
+                            <li>Full audit trail and reporting</li>
                             <li>Configurable to your council's fund codes and workflows</li>
                         </ul>
                     </div>
@@ -60,7 +60,7 @@ layout: main
                         <div class="c-card__label">How it's built</div>
                         <ul>
                             <li>Open source — GNU AGPLv3 licence</li>
-                            <li>Originally built by Barnsley, now and maintained by Tailwind Digital alongside partner councils</li>
+                            <li>Built and maintained by partner councils</li>
                             <li>WCAG 2.1 AA accessible as standard</li>
                             <li>Developed in the open, in collaboration with MHCLG</li>
                             <li>Managed service available via Tailwind Digital</li>
@@ -75,14 +75,14 @@ layout: main
             <div class="c-page__section">
                 <div class="c-eyebrow">Getting started</div>
                 <h2>Two ways to adopt the IMS.</h2>
-                <p class="c-section-intro">Whether you want to run Local Gov IMS yourself or use a fully managed service, there's a route that works for your council.</p>
+                <p class="c-section-intro">Whether you want full hands-on control or a fully managed service, there's a route that works for your council.</p>
 
                 <div class="c-steps">
                     <div class="c-step">
                         <div class="c-step__num">1</div>
                         <div class="c-step__body">
                             <h3>Managed service via Tailwind Digital</h3>
-                            <p>The simplest route. Tailwind Digital provides full implementation, hosting, ongoing maintenance, and support. <a href="https://tailwinddigital.io" target="_blank" rel="noopener">Find out more at tailwinddigital.io →</a></p>
+                            <p>The simplest route. Tailwind Digital provides full implementation, hosting, ongoing maintenance, and support — so your council gets the IMS without needing in-house technical resource. <a href="https://tailwinddigital.io" target="_blank" rel="noopener">Find out more at tailwinddigital.io →</a></p>
                         </div>
                     </div>
                     <div class="c-step">
@@ -96,24 +96,32 @@ layout: main
                         <div class="c-step__num">3</div>
                         <div class="c-step__body">
                             <h3>Join the community</h3>
-                            <p>Whether or not you're using Local Gov IMS yet, you're welcome in the community. Attend Show and Share sessions and help shape the direction of the project. <a href="{{ '/community' | relative_url }}">Learn more →</a></p>
+                            <p>Whether or not you're using the IMS yet, you're welcome in the community. Attend Show and Share sessions and help shape the direction of the project. <a href="{{ '/community' | relative_url }}">Learn more →</a></p>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- Provider box -->
+            <div class="c-provider-box">
+                <div class="c-provider-box__text">
+                    <h3>Get the IMS with Tailwind Digital</h3>
+                    <p>Tailwind Digital provides a fully managed service for Local Gov IMS — covering implementation, configuration, hosting, and ongoing support. No in-house technical resource needed. GOV.UK Pay, Lloyds, and Worldpay integrations included.</p>
+                </div>
+                <a href="https://tailwinddigital.io" target="_blank" rel="noopener" class="c-provider-box__btn">Visit tailwinddigital.io ↗</a>
+            </div>
 
             <!-- Feature grid preview -->
             <div class="c-page__section" style="margin-bottom:0;">
                 <div class="c-eyebrow">Features</div>
                 <h2>What the IMS includes.</h2>
-                <p class="c-section-intro">Payments and income management designed by councils, for councils, with flexible modern tools.
-                    <a href="{{ '/features' | relative_url }}">View all features →</a></p>
+                <p class="c-section-intro">Designed as a minimum viable system, meeting the priority needs of councils. <a href="{{ '/features' | relative_url }}">View all features →</a></p>
+
                 <div class="c-three-col">
                     <div class="c-feature-card">
                         <div class="c-feature-card__dot"></div>
                         <h3>Dashboard</h3>
-                        <p>Real-time overview of the system with import processing status and payment summaries at a glance.</p>
+                        <p>Real-time overview of the system — import processing status and payment summaries at a glance.</p>
                     </div>
                     <div class="c-feature-card">
                         <div class="c-feature-card__dot"></div>
@@ -123,12 +131,12 @@ layout: main
                     <div class="c-feature-card">
                         <div class="c-feature-card__dot"></div>
                         <h3>Payments</h3>
-                        <p>Integrated payments across all methods including online, MOTO, cheque, in person via cash, card or cheque.</p>
+                        <p>Card and cheque recording for call centre and post room. Integrates with call management software.</p>
                     </div>
                     <div class="c-feature-card">
                         <div class="c-feature-card__dot"></div>
-                        <h3>Imports &amp; exports</h3>
-                        <p>Automatic file distributions, with configurable processing rules to process transactions automatically.</p>
+                        <h3>Imports &amp; suspense</h3>
+                        <p>Automatic bank file allocation. Unallocated items go to suspense with configurable processing rules to reduce them.</p>
                     </div>
                     <div class="c-feature-card">
                         <div class="c-feature-card__dot"></div>
@@ -142,34 +150,7 @@ layout: main
                     </div>
                 </div>
             </div>
-                        <!-- Provider box -->
-            <div class="c-provider-box">
-                <div class="c-provider-box__text">
-                    <h3>Get Local Gov IMS with Tailwind Digital</h3>
-                    <p>Tailwind Digital provides a fully managed service for Local Gov IMS — covering implementation, configuration, hosting, and ongoing support. Switch to Local Gov IMS with confidence.</p>
-                </div>
-                <a href="https://tailwinddigital.io" target="_blank" rel="noopener" class="c-provider-box__btn">Visit tailwinddigital.io ↗</a>
-            </div>
-<!-- Demo options -->
-<div class="c-page__section">
-        <div class="c-eyebrow">Try Local Gov IMS</div>
-    <h2>See it in action.</h2>
-    <p class="c-section-intro">Explore the system yourself with our open demo environment, or book a guided walkthrough with the Tailwind Digital team.</p>
-    <div class="c-two-col">
-        <div class="c-card" style="display: flex; flex-direction: column;">
-            <div class="c-card__label">Self-service demo</div>
-            <h3>Explore the system yourself</h3>
-            <p style="flex: 1;">Register with your council email address and get access to the demo environment. Explore the core functions, transactions, imports, settings and more at your own pace.</p>
-            <a href="https://demo.localgovims.digital/" target="_blank" rel="noopener" class="c-card__btn">Access demo site →</a>
-        </div>
-        <div class="c-card" style="display: flex; flex-direction: column;">
-            <div class="c-card__label">Guided demo</div>
-            <h3>Book a guided walkthrough</h3>
-            <p style="flex: 1;">Get a personalised walkthrough of Local Gov IMS with the Tailwind Digital team. See how it would work for your council, ask questions, and explore the managed service offering.</p>
-            <a href="https://tailwinddigital.io" target="_blank" rel="noopener" class="c-card__btn c-card__btn--teal">Book a demo ↗</a>
-        </div>
-    </div>
-</div>
+
         </div>
     </div>
 </div>
