@@ -1,14 +1,12 @@
 ---
 layout: page
 title: Documentation
-subtitle: Guidance for councils using, contributing to, or considering the IMS.
+subtitle: Guidance for councils using, contributing to, or considering Local Gov IMS.
 eyebrow: Documentation
 theme: documentation
 navEntry: 4
 ---
-
-If you'd like the team to add something to this section [please get in touch](/contacts).
-
+This page contains documentation relating to the values and governance of the project. If you would like documentation relating to the product, please reach out to [Tailwind Digital.](https://tailwinddigital.io)
 ## IMS Memorandum of Understanding
 
 The purpose of the Memorandum of Understanding (MoU) is to guide and support councils that co-develop, share, and maintain the open source codebase for the Local Gov Income Management System (LG IMS).
@@ -41,9 +39,9 @@ No party has liability for any contribution. Code and other materials are provid
 
 - **Project team** — partner councils, MHCLG, and managed service provider Tailwind Digital.
 - **LG IMS users** — councils using the LG IMS.
-- **Wider community** — councils with an interest in the IMS and its development.
+- **Wider community** — councils with an interest in Local Gov IMS and its development.
 
-The structure will evolve as the project grows.
+The structure will evolve as the project grows. If you'd like to get involved in the governance discussions [please get in touch](/contacts).
 
 ### Governance
 
@@ -60,7 +58,7 @@ The structure will evolve as the project grows.
 
 ### Finance
 
-The Local Gov IMS has been funded by the Local Digital Fund provided by MHCLG. The project's intent is for the codebase to remain open source and freely available. The current codebase is on [GitHub](https://github.com/LocalGovIMS/localgov-ims) — an updated version will be released once governance arrangements are agreed with project partners and MHCLG.
+The Local Gov IMS has been funded by the Local Digital Fund provided by MHCLG. The codebase will remain open source and freely available. The current codebase is on [GitHub](https://github.com/LocalGovIMS/localgov-ims) — an updated version will be released once governance arrangements are agreed with project partners and MHCLG.
 
 ### Communication
 

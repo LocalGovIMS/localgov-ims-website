@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Features of the IMS
+title: Features of Local Gov IMS
 subtitle: Designed and built to meet the priority needs of councils managing income, payments, through to general ledger and reconciliation.
 eyebrow: System
 theme: features

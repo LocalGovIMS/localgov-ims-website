@@ -34,7 +34,7 @@
     background: rgba(255,255,255,0.15);
     color: rgba(255,255,255,0.95);
     font-family: $font-family-sans;
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 2.5px;
     text-transform: uppercase;
@@ -46,7 +46,7 @@
 /* Title — min mode (inner pages) */
 .c-hero__title--min {
     font-family: $font-family-serif;
-    font-size: clamp(1.6rem, 3.2vw, 2.5rem);
+    font-size: clamp(1.8rem, 3.2vw, 2.8rem);
     font-weight: 600;
     line-height: 1.15;
     letter-spacing: -0.01em;
@@ -58,7 +58,7 @@
 /* Title — max mode (homepage) */
 .c-hero__title--max {
     font-family: $font-family-serif;
-    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-size: clamp(2.4rem, 4vw, 3.8rem);
     font-weight: 600;
     line-height: 1.12;
     letter-spacing: -0.01em;
@@ -70,7 +70,7 @@
 /* Subtitle */
 .c-hero__subtitle--min {
     font-family: $font-family-sans;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: rgba(255,255,255,0.78);
     line-height: 1.7;
     margin: 0;
@@ -79,7 +79,7 @@
 
 .c-hero__subtitle--max {
     font-family: $font-family-sans;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     color: rgba(255,255,255,0.82);
     line-height: 1.75;
     margin: 0 0 2.25rem 0;
